@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Submission Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Your Details</h2>
+        <form id="userForm">
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="address" placeholder="Address" required>
+            <input type="text" id="id" placeholder="ID Number" required>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
